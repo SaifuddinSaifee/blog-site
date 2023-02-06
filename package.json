@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gitadd": "git add .",
+    "gitsts": "git status",
+    "gitcom": "git commit -m 'Source code updated functional changes'",
+    "gitall": "npm-run-all --serial gitadd gitsts gitcom"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }

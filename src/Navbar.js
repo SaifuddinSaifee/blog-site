@@ -1,7 +1,7 @@
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>Bloggs by Saif</h1>
+            <h1>Blogg by Saif</h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/create">New blog</a>
@@ -9,5 +9,5 @@ const Navbar = () => {
         </nav>
     );
 }
- 
+
 export default Navbar;
