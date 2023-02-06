@@ -18,8 +18,9 @@
     "eject": "react-scripts eject",
     "gitadd": "git add .",
     "gitsts": "git status",
-    "gitcom": "git commit -m 'Source code updated functional changes'",
-    "gitall": "npm-run-all --serial gitadd gitsts gitcom"
+    "gitcom": "git commit",
+    "gitpush": "git push",
+    "gitall": "npm-run-all --serial gitadd gitsts gitcom gitsts gitpush"
   },
   "eslintConfig": {
     "extends": [
